@@ -1,2 +1,2 @@
 # delta-demo
-This is a demo page 
+This is a demo page.
