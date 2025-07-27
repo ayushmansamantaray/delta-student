@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 300vh;
+}
+
+.container{
+    flex:1;
+}
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe4e4d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem; /* optional for spacing */
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: 200%;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+.f-info-links,
+.f-info-social-media {
+    display: flex;
+    gap: 0.8rem;
+}
+.f-info-links{
+    /* width: 100%; */
+    font-size: 1rem;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.f-info-social-media i{
+    font-size:1rem;
+    /* padding-right: 40%; */
+}
+
+/* CARDS */
+.card{
+    border:none !important;
+    margin-left:1rem !important ;
+    margin-bottom: 2rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight:400 ;
+}
+.listing-id{
+    text-decoration: none;
+}
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* Edit form */
+.add-btn{
+    background-color: #fe4e4d !important;
+    border: none !important;
+}
+/* show list */
+.all-list{
+    height: 30vh;
+    /* width: 50vw; */
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+.btns{
+    display: flex;
+}
+
+/* Map */
+#map { 
+  height: 400px;
+  width: 100vh;
+}
