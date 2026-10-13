@@ -100,6 +100,7 @@ app.use((err,req,res,next)=>{
   res.status(status).render("error.ejs",{message,err});
 });
 
+const port = process.env.PORT || 8080;
 app.listen(8080,()=>{
     console.log("app is listening");
 });
