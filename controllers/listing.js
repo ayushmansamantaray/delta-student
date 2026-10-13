@@ -2,7 +2,7 @@ const Listing=require("../models/listing.js");
 
 module.exports.index= async (req, res) => {
   const allListing = await Listing.find({});
-  res.render("lists.ejs", { allListing });
+  res.render("listings/index.ejs", { allListing });
 };
 
 module.exports.renderNewForm=(req,res)=>{
