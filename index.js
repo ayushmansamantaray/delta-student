@@ -55,9 +55,9 @@ const sessionOptions={
     }
 };
 
-// app.get("/",(req,res)=>{
-//     res.send("Hi,I'm root dir");
-// });
+app.get("/",(req,res)=>{
+    res.send("/listings");
+});
 
 app.use(session(sessionOptions));
 app.use(flash());
